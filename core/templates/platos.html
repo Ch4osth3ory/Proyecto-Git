@@ -1,0 +1,424 @@
+{% extends 'baseNav.html' %}
+
+{% load static %}
+
+{% block contenido %}
+
+<div class="container-md bg-light margen-containers" style="border-radius: 25px; border: 5px solid #fffc39;">
+  <div class="container-sm">
+    <p class="titulos">-Especiales Semanales-</p>
+  </div>
+  <div class="container-sm">
+    <!-- Especiales Semanales Fila 1 -->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card" style="border-radius: 20px;">
+          <img src="{% static 'imagenes\Platillos\LomoSalteado.jpg' %} " class="card-img-top" alt="..."  style="border-radius: 20px 20px 0px 0px; max-width: 100% ; max-height: 100%; height: 250px; width: auto;">
+          <div class="card-body" style="border-radius: 0px 0px 20px 20px;">
+            <div class="row" style="padding-top: 10px;">
+              <div class="col">
+                <p class="texto-menu-destacado">Lomo Salteado</p>
+              </div>
+              <div class="col">
+                <p class="texto-menu-destacado">$9.500</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="border-radius: 20px;">
+          <img src="{% static 'imagenes\Postres\ChessecakeOreos.jpg' %} " class="card-img-top" alt="..."  style="border-radius: 20px 20px 0px 0px; max-width: 100% ; max-height: 100%; height: 250px; width: auto;">
+          <div class="card-body" style="border-radius: 0px 0px 20px 20px;">
+            <div class="row" style="padding-top: 10px;">
+              <div class="col">
+                <p class="texto-menu-destacado">Chessecake Oreos</p1>
+              </div>
+              <div class="col">
+                <p class="texto-menu-destacado">$6.250</p1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="border-radius: 20px;">
+          <img src="{% static 'imagenes\Bebidas\Mojito.jpg' %} " class="card-img-top" alt="..."  style="border-radius: 20px 20px 0px 0px; max-width: 100% ; max-height: 100%; height: 250px; width: auto;">
+          <div class="card-body" style="border-radius: 0px 0px 20px 20px;">
+            <div class="row" style="padding-top: 10px;">
+              <div class="col">
+                <p class="texto-menu-destacado">Mojito Especial</p>
+              </div>
+              <div class="col">
+                <p class="texto-menu-destacado">$3.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </div>
+    <br><br>
+  </div>
+</div>
+
+
+<!-- Menu de Platillos -->
+<div class="container-md bg-light margen-containers" style="border-radius: 25px; border: 5px solid #23f072;">
+  <div class="container-fluid">
+    <p class="titulos">-Platillos Principales-</p>
+  </div>
+  <div class="row">
+    <div class="col">
+      <!--Nombres-->
+      <ul class="list-group" style="padding: 0px 5px 40px 5px;">
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col">
+              <p class= "texto-menu-titulo">Nombres</p>
+            </div>
+            <div class="col">
+              <p class= "texto-menu-titulo">Precios</p>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col">
+              <p class= "texto-menu"> 1.Solomillo Estilo Ranchero</p>
+              <p class="texto-menu-ingredientes">Solomillo, Chile Guajaca, Pimienta negra, Salsa Ranchera.</p>
+            </div>
+            <div class="col">
+              <p class= "texto-menu-precios">$9.500</p>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col">
+              <p class= "texto-menu"> 2.Espaguettis Romanos</p>
+              <p class="texto-menu-ingredientes"> Molida de Vacuno, Tomates, Romero, Salsa Secreta.</p>
+            </div>
+            <div class="col">
+              <p class= "texto-menu-precios">$8.100</p>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col">
+              <p class= "texto-menu"> 3.Paella Sevillana</p>
+              <p class="texto-menu-ingredientes"> Arroz, Chorizo, Pollo, Mariscos Variados, Verduras Variadas.</p>
+            </div>
+            <div class="col">
+              <p class= "texto-menu-precios">$7.500</p>
+            </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col">
+              <p class= "texto-menu"> 4.Jardin de Mariscos</p>
+              <p class="texto-menu-ingredientes">Choritos, Camarones, Ostiones, Lechuga, Limon, Perejil.</p>
+            </div>
+            <div class="col">
+              <p class= "texto-menu-precios">$14.000</p>
+            </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col">
+              <p class= "texto-menu"> 5.Lomo Saltado</p>
+              <p class="texto-menu-ingredientes"> Papas Fritas, Lomo de Vacuno, Arroz, Verduras Variadas.</p>
+            </div>
+            <div class="col">
+              <p class= "texto-menu-precios">$18.000</p>
+            </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col">
+              <p class= "texto-menu"> 6.Lasaña Boloñesa</p>
+              <p class="texto-menu-ingredientes"> Salsa Boloñesa, Carne Molida, Queso, Tapas de Lasaña.</p>
+            </div>
+            <div class="col">
+              <p class= "texto-menu-precios">$16.500</p>
+            </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col">
+              <p class= "texto-menu"> 7.Aji de Gallina</p>
+              <p class="texto-menu-ingredientes"> Pechuga de Pollo, Cebolla, Aceite, Aji Amarillo, Queso.</p>
+            </div>
+            <div class="col">
+              <p class="texto-menu-precios">$13.800</p>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col">
+              <p class= "texto-menu"> 8.Ceviche de Reineta</p>
+              <p class="texto-menu-ingredientes"> Reineta, Pimenton rojo y verde, Cebollin, Aceite, Limon.</p>
+            </div>
+            <div class="col">
+              <p class= "texto-menu-precios">$11.000</p>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col">
+              <p class= "texto-menu"> 9.Chorrillana</p>
+              <p class="texto-menu-ingredientes"> Papas Fritas, Huevo Frito, Cebolla, Carne o Chorizo.</p>
+            </div>
+            <div class="col">
+              <p class= "texto-menu-precios">$8.000</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Menu de Bebidas -->
+<div class="container-md bg-light margen-containers" style="border-radius: 25px; border: 5px solid #23f0f0;">
+  <div class="container-fluid">
+    <p class="titulos">-Bebidas-</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <!--Nombres-->
+        <ul class="list-group" style="padding: 0px 5px 40px 5px;">
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu-titulo">Nombres</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-titulo">Precios</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu">1.Malteada de chocolate</p>
+                <p class="texto-menu-ingredientes">Leche, Salsa de Chocolate, Yogurt de Vainilla, Hielo.</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-precios">$2.500</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu">2.Michelada</p>
+                <p class="texto-menu-ingredientes">Cerveza, Sal, Limon, Merken (Opcional).</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-precios">$3.000</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu">3.Capuccino</p>
+                <p class="texto-menu-ingredientes">Crema, Leche, Cafe negro, Chocolate rallado (Opcional).</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-precios">$2.500</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu">4.Martini</p>
+                <p class="texto-menu-ingredientes">Ginebra, Vermout, Aceitunas, Limon.</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-precios">$5.000</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu">5.Piscola</p>
+                <p class="texto-menu-ingredientes">Pisco, Coca Cola, Limon.</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-precios">$4.000</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu">6.Mojito</p>
+                <p class="texto-menu-ingredientes">Azucar, Menta, Limon, Ron, Soda.</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-precios">$3.800</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu">7.Vaina</p>
+                <p class="texto-menu-ingredientes">Vino, Coñac, Chocolate Amargo (En polvo), Azucar Flor.</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-precios">$5.000</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu">8.Cafe Negro</p>
+                <p class="texto-menu-ingredientes">Cafe Negro, Azucar o Estevia, Crema (Opcional).</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-precios">$1.500</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu">9.Té de Canela</p>
+                <p class="texto-menu-ingredientes">Té Amargo, Ramitas de Canela.</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-precios">$1.250</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu">10.Vino Tinto.</p>
+                <p class="texto-menu-ingredientes">Vino Tinto</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-precios">$2.500</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Menu de Postres -->
+<div class="container-md bg-light margen-containers" style="border-radius: 25px; border: 5px solid #f07e7e;">
+  <div class="container-fluid">
+    <p class="titulos">-Postres-</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <!--Nombres-->
+        <ul class="list-group" style="padding: 0px 5px 40px 5px;">
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu-titulo">Nombres</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-titulo">Precios</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu">1.BananaSplit</p>
+                <p class="texto-menu-ingredientes">Helado chocolate, Helado vainilla, Banana, Salsa, Crema .</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-precios">$6.500</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu">2.Ensalada de frutas</p>
+                <p class="texto-menu-ingredientes"> Naranja, Piña, Frutilla, Banana, Mango.</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-precios">$5.000</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu">3.Mousse de Chocolate</p>
+                <p class="texto-menu-ingredientes"> Chocolate negro, Mantequilla, Huevos, Azucar, Crema.</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-precios">$5.500</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu">4.Crepes</p>
+                <p class="texto-menu-ingredientes">Harina, Leche, Azucar, Huevos, Mantequilla, Sal.</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-precios">$4.000</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu">5.Tiramisu</p>
+                <p class="texto-menu-ingredientes">Queso crema, Huevos, Azucar, Bizcochos, Licor, Cacao, Café, Sal.</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-precios">$4.000</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu">6.Chessecake de Oreos</p>
+                <p class="texto-menu-ingredientes">Galletas molidas, Mantequilla, Queso crema, Leche condensada, Huevos, Frutillas, Azucar, Ron, Oreos.</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-precios">$3.500</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="row">
+              <div class="col">
+                <p class= "texto-menu">7.Panqueques de Frutilla</p>
+                <p class="texto-menu-ingredientes">Huevos, Leche, Harina, Mantequilla, Frutilla, Azucar.</p>
+              </div>
+              <div class="col">
+                <p class= "texto-menu-precios">$2.500</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+{% endblock %}

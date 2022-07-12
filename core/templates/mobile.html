@@ -1,0 +1,63 @@
+{% extends 'baseNav.html' %}
+
+{% load static %}
+
+{% block contenido %}
+
+<div class="container-md bg-light margen-containers" style="border-radius: 10px;">
+    <div class="container-sm">
+        <p class="titulos">-¡Obten Beneficios!-</p>
+        <div>
+            <p class="titulo-beneficios">¿Sabias que tenemos una app movil?</p>
+        </div>  
+        <div>
+            <p class="parrafos">
+                Podras estar informado de todas las ofertas, promociones y eventos que 
+                se realicen en el local, descarga nuestra app y registrate para obtener un
+                cupón de 30% de descuento en tu proxima compra.
+            </p>
+        </div>            
+        <div class="row row-cols-2 row-cols-md-4 g-3 espacio">
+            <div class="col">
+                <img src="{% static 'imagenes\Otros\Descuentos.png' %}" alt="Descuentos" class="img-thumbnail" height="200" width="200" id="RedondearBordes">
+            </div>
+            <div class="col">
+                <img src="{% static 'imagenes\Otros\Regalo.png' %}" alt="Regalo" class="img-thumbnail" height="200" width="200" id="RedondearBordes">
+            </div>
+            <div class="col">
+                <img src="{% static 'imagenes\Otros\Amigos.png' %}" alt="Amigos" class="img-thumbnail" height="200" width="200" id="RedondearBordes">
+            </div>                    
+            <div class="col">
+                <img src="{% static 'imagenes\Otros\Reserva.png' %}" alt="Reserva" class="img-thumbnail" height="200" width="200" id="RedondearBordes">
+            </div>
+        </div>
+        <div class="container-fluid margen-containers" style="padding-bottom: 30px;">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="margin-right: auto; margin-left: auto;" id="RedondearBordes">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="card-text espacio" style="text-align: center;">Descarga la App ya mismo desde Google Play </p>         
+                                    <div style="text-align: center;">
+                                        <a href="https://play.google.com/store/games?hl=es_419" class="btn btn-success">Ir a Google Play</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="card-text espacio" style="text-align: center;">¿El enlace no funciona?<br>Descargala de forma directa aqui.</p>
+                                    <div style="text-align: center;">
+                                        <a href="" class="btn btn-primary">Enlace Directo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </div>
+</div>
+
+{% endblock %}

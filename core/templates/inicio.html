@@ -1,0 +1,30 @@
+{% extends 'baseNav.html' %}
+
+{% load static %}
+
+{% block contenido %}
+
+<div class="container-md margen-containers bg-light" id="RedondearBordes"> 
+  <div>
+    <p class="titulos">¿Que es GrandTour?</p>
+  </div>
+  <div class="container-md" style="margin-left: auto;margin-right: auto;">
+    <img src="{% static 'imagenes\Otros\fachada.jpg' %} " class="rounded mx-auto d-block img-fluid" alt="...">
+  </div>
+  <p class="parrafos espacio">
+    Somos una familia que se creo a partir de un sueño y queremos
+    brindar el mejor servicio a nuestros clientes, por esto es que
+    siempre estamos innovando en nuestros deliciosos platillos.
+    Nuestro equipo de trabajo esta comprometido para brindar un
+    trato amigable y casero a quienes nos visitan., ya que lo que
+    más nos importa es mantener nuestra esencia humilde.  A  su vez
+    no queremos quedarnos atrás en la industria, por lo que te invitamos
+    a descargar nuestra aplicación móvil para así comprar tus platos preferidos
+    directamente desde ella y que lleguen a tu mesa en nuestro restaurante.
+  </p>
+</div>
+
+
+
+{% endblock %}
+

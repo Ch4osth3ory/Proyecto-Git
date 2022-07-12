@@ -1,0 +1,127 @@
+/*ajustar tamaño carousel*/
+.carousel-inner{
+    margin-right: auto;
+    margin-left: auto;
+    height:500px;
+    width: 1000px,auto;
+    
+  }
+
+#RedondearBordes{
+  border-radius: 25px;
+}
+.ajustar-imagen{
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  float: center;
+}
+.icono-redondo{
+  border-radius: 5px;
+  border-color: black;
+}
+.margen-navbar{
+  margin-left: auto;
+  margin-right: auto;
+}
+.espacio{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bordes-imagen{
+  border-radius: 20px;
+}
+
+.texto-navbar{
+  font-family: 'Papyrus',fantasy;
+  color: black;
+  margin-left: auto;
+  margin-right: auto; 
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.titulos{
+  font-family: 'Papyrus',fantasy;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;;
+}
+.parrafos{
+  font-family: 'Curier New',monospace;
+  font-size: 20px;
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Texto Apartado Menu*/
+.texto-menu-destacado{
+  font-family: 'Lucida Console',monospace;
+  font-size: 20px;
+  text-align: center;
+}
+.texto-menu{
+  font-family: 'Lucida Console',monospace;
+  font-size: 20px;
+  text-align: justify;
+}
+.texto-menu-titulo{
+  font-family: 'Lucida Console',monospace;
+  font-size: 23px;
+  text-align: center;
+  font-weight: bold;
+}
+.texto-menu-precios{
+  font-family: 'Lucida Console',monospace;
+  font-size: 20px;
+  text-align: center;
+}
+.texto-menu-ingredientes{
+  font-family: 'Lucida Console',monospace;
+  font-size: 15px;
+  text-align: justify;
+  color: rgb(119, 119, 119);
+}
+
+/* Margen containers*/
+.margen-containers{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titulo-beneficios{
+  font-family: 'Curier New',monospace;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.img-carusel{
+  border-radius:30px;
+  width: 100%;
+  max-height: 650px;
+}
+
+.texto-footer-titulo{
+  font-family: 'Papyrus',fantasy;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;;
+}
+.texto-footer{
+  font-family: 'Curier New',monospace;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(119, 119, 119);
+}
